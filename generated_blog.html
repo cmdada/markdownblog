@@ -25,7 +25,7 @@
     
         <h1></h1>
         <h1 id="evaluating-the-2d-vector-and-raster-graphics-processing-proficiency-of-cmu-cs-academys-ide">Evaluating the 2D Vector and Raster Graphics Processing Proficiency of CMU CS Academy's IDE</h1>
-<p><em>Published on: Fri Mar  1 09:16:46 AM MST 2024</em></p>
+<p><em>Published on: Fri Mar  1 09:16:46 AM MST 2024 by ada</em></p>
 <h3 id="introduction">Introduction</h3>
 <p>This article sets out to evaluate the computational capabilities of CMU Computer Science (CS) Academy's Integrated Development Environment (IDE) in processing 2D Vector and Raster Graphics.</p>
 <h3 id="methodology">Methodology</h3>
@@ -40,7 +40,7 @@
 <p>CMU CS Academy leverages Brython, which is an implementation of Python 3 for the web, to execute code in a Python 3 environment and uses Ace Editor as the code editor. While Brython supports outputting to a display, specific JavaScript (JS) frameworks are required. However, due to CMU's use of Ace, it seems that none of these frameworks would be compatible. To solve this problem, they wrote a graphics library that renders directly to the webpage, but this library does not yet seem to be equipped to manage multiple shapes simultaneously. To handle the creation of shapes or text labels, an instance of their JS graphics library is spawned on-demand, creating massive inefficiency in memory and CPU usage.</p>
 <p>Code available <a href="https://cmu.adas.software/cmu.pdf">here</a>.</p>
 <h1 id="so-whats-up-with-transcode-on-the-aur">So what's up with transcode on the AUR?</h1>
-<p><em>Published on: Wed Feb 14 10:06:38 AM MST 2024</em></p>
+<p><em>Published on: Wed Feb 14 10:06:38 AM MST 2024 by ada</em></p>
 <p>As the title may suggest, <a href="https://aur.archlinux.org/packages/transcode">transcode</a> has something weird going on with its packagebase.</p>
 <p>The website previously displayed for the upstream URL seems to not be in the ownership of the maintainer, or if it is, it has been repurposed as an unrelated blog about apple cider vinegar. The package previously used a GitHub clone (<a href="https://github.com/wyyrepo/transcode">https://github.com/wyyrepo/transcode</a>) that isn't from the original author, but the tree is identical to what's hosted on the AUR, except that the GitHub version has a README.md instead of a README.</p>
 <p>So basically, I'm just confused about what happened there and wanted an excuse to talk about transcoded stuff (kidding). Oh, and it's not some random irrelevant package; <code>kde-services</code> depends on it.</p>

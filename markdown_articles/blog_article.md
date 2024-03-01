@@ -1,6 +1,6 @@
 # Evaluating the 2D Vector and Raster Graphics Processing Proficiency of CMU CS Academy's IDE
 
-*Published on: Fri Mar  1 09:16:46 AM MST 2024*
+*Published on: Fri Mar  1 09:16:46 AM MST 2024 by ada*
 
 ### Introduction
 
@@ -26,7 +26,7 @@ Code available [here](https://cmu.adas.software/cmu.pdf).
 
 # So what's up with transcode on the AUR?
 
-*Published on: Wed Feb 14 10:06:38 AM MST 2024*
+*Published on: Wed Feb 14 10:06:38 AM MST 2024 by ada*
 
 As the title may suggest, [transcode](https://aur.archlinux.org/packages/transcode) has something weird going on with its packagebase.
 
